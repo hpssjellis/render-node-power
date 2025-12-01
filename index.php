@@ -58,7 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>PHP Environment Capabilities Check v2</title>
+    <title>PHP Environment Capabilities Check v3</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
@@ -124,7 +124,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body>
     <div class="container">
-        <h3>PHP Environment Capabilities Check v2</h3>
+        <h3>PHP Environment Capabilities Check v3</h3>
 
         <form action="" method="post" >
             <label for="myText01">Magic Word Check:</label>
