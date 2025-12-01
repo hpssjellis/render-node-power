@@ -58,7 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>PHP Environment Capabilities Check v3</title>
+    <title>PHP Environment Capabilities Check v4</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
@@ -124,7 +124,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body>
     <div class="container">
-        <h3>PHP Environment Capabilities Check v3</h3>
+        <h3>PHP Environment Capabilities Check v4</h3>
 
         <form action="" method="post" >
             <label for="myText01">Magic Word Check:</label>
@@ -137,7 +137,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <?php echo $checkResult; ?>
         </div>
 
-        <h4>Environment Shell Output</h4>
+        <h4>Environment Shell Output v4</h4>
         <div class="results-box">
             <p><strong>Node.js Check:</strong> <code><?php echo htmlspecialchars($nodeVersion); ?></code></p>
             <p><strong>Python Check:</strong> <code><?php echo htmlspecialchars($pythonVersion); ?></code></p>
