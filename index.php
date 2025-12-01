@@ -124,7 +124,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body>
     <div class="container">
-        <h3>PHP Environment Capabilities Check</h3>
+        <h3>PHP Environment Capabilities Check v2</h3>
 
         <form action="" method="post" >
             <label for="myText01">Magic Word Check:</label>
