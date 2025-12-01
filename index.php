@@ -1,6 +1,6 @@
 <?php
 // Initialize variables for the result message and the input text.
-$checkResult = "<span style='color:red'> Try the magic word 'fred'</span>";
+$checkResult = "<span style='color:red'> Try the magic word 'fred' ....</span>";
 $myInputText01 = '';
 
 // --- Shell Command Execution for Environment Check ---
@@ -49,7 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if ($myCheck) {
         $checkResult = "<b style='color:green'> Cool! The magic word works! </b>";
     } else {
-        $checkResult = "<span style='color:red'> Try the magic word 'fred'</span>";
+        $checkResult = "<span style='color:red'> Try the magic word 'fred' ....</span>";
     }
 }
 
@@ -58,7 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>PHP Environment Capabilities Check</title>
+    <title>PHP Environment Capabilities Check v2</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
